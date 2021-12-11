@@ -201,7 +201,7 @@ show_grief_hud_msg_cleanup()
 	}
 }
 
-grief_reset_message(
+grief_reset_message()
 {
 	msg = &"ZOMBIE_GRIEF_RESET";
 	players = getPlayers();
